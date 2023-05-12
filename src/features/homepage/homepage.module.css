@@ -1,4 +1,275 @@
-.home{
-    height: 500px;
-    border: 2px solid black;
-}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; /* Adjust as needed */
+    background-color: #f2f2f2; /* Optional: Background color for visibility */
+  }
+  
+  .whiteIcon {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid rgba(255, 255, 255, 0.5); /* Transparent border */
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    /* background-color: #282c34; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .group19 {
+    align-items: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    margin-left: 31.0px !important;
+    margin-top: 33px !important;
+    min-height: 108px !important;
+    width: 529px !important;
+  }
+  
+  .frame17 {
+    align-items: center !important;
+    display: flex !important;
+    height: 36px !important;
+    margin-right: 31.0px !important;
+    min-width: 428px !important;
+    position: relative !important;
+  }
+  .container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .iconContainer {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+  }
+  
+  .text {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .subtext {
+    color: blue;
+  }
+  
+  .line {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-40%);
+    width: calc(100% - 80px);
+    height: 2px;
+    background-color: blue;
+    left: 40px;
+    right: 40px;
+  }
+  
+  
+  .hello-im-willgenie {
+    letter-spacing: 0;
+    line-height: 40px;
+    margin-left: 1.0px;
+    margin-top: 31px;
+    min-height: 80px;
+    min-width: 523px;
+    text-align: center;
+  }
+  
+  .we-have-a-set-of-32 {
+    letter-spacing: 0;
+    line-height: 28px;
+    margin-left: 1.0px;
+    margin-top: 24px;
+    min-height: 56px;
+    min-width: 775px;
+    text-align: center;
+  }
+
+  
+  .vector-1 {
+    height: 1px;
+    margin-top: 1.0px;
+    width: 160px;
+  }
+  
+  .flexrow {
+    align-items: flex-start;
+    display: flex;
+    height: 28px;
+    margin-left: 1.0px;
+    margin-top: 15px;
+    min-width: 504px;
+  }
+  
+  .aboutyou {
+    letter-spacing: 0;
+    line-height: 28px;
+    min-width: 80px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .yourlegacy {
+    letter-spacing: 0;
+    line-height: 28px;
+    margin-left: 111px;
+    min-width: 91px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .legacymadeeasy {
+    letter-spacing: 0;
+    line-height: 28px;
+    margin-left: 78px;
+    min-width: 144px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .minutescontainer {
+    align-items: flex-start;
+    align-self: flex-start;
+    display: flex;
+    height: 28px;
+    min-width: 499px;
+  }
+  
+  .x1215minutes {
+    letter-spacing: 0;
+    line-height: 28px;
+    min-width: 106px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .x2025minutes {
+    letter-spacing: 0;
+    line-height: 28px;
+    margin-left: 88px;
+    min-width: 111px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .x1520minutes {
+    letter-spacing: 0;
+    line-height: 28px;
+    margin-left: 86px;
+    min-width: 108px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .overlap-group {
+    align-self: flex-end;
+    height: 456px;
+    margin-right: -159px;
+    margin-top: 40px;
+    position: relative;
+    width: 1543px;
+  }
+  
+  .bg {
+    height: 456px;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    width: 1543px;
+  }
+  
+  .start {
+    align-items: flex-start;
+    background-color: var(--rob-roy);
+    border-radius: 22px;
+    display: flex;
+    gap: 8px;
+    height: 44px;
+    /* left: 583px; */
+    overflow: hidden;
+    padding: 10px 24px;
+    /* position: absolute; */
+    margin-top: 7px;
+    width: 236px;
+    justify-content: center;
+  }
+  
+  .chevronright {
+    /* align-self: center;
+    height: 16px;
+    width: 16px; */
+    position: absolute;
+width: 14.7px;
+height: 8.1px;
+left: calc(50% - 14.7px/2 + 3.3px);
+top: calc(50% - 8.1px/2 - 3.25px);
+
+/* Neutral Black */
+
+background: #333333;
+transform: matrix(0, 1, 1, 0, 0, 0);
+  }
+  
+  .next {
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  
+  

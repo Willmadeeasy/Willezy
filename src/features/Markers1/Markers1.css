@@ -1,0 +1,35 @@
+.markers1 {
+  align-items: flex-start;
+  background-color: var(--robins-egg-blue);
+  border-radius: 18px;
+  display: flex;
+  height: 36px;
+  overflow: hidden;
+  padding: 7px 12px;
+  width: 36px;
+}
+
+.x01 {
+  letter-spacing: 0;
+  line-height: 20px;
+  min-width: 12px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.markers1.markers1-1 {
+  padding: 7px 12.5px;
+}
+
+.markers1.markers1-1 .x01 {
+  min-width: 11px;
+}
+
+.markers1.markers1-2 {
+  padding: 7px 11.5px;
+}
+
+.markers1.markers1-2 .x01 {
+  min-width: 13px;
+}
+

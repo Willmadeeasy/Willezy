@@ -36,3 +36,14 @@
     mix-blend-mode: hard-light;
     transform: rotate(180deg);
   }
+  .footerBg {
+    overflow-x: hidden;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: -4px;
+    right: 0;
+  }
+  .imgWidth{
+    width: 100%;
+  }

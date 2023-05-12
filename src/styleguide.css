@@ -1,0 +1,56 @@
+:root { 
+  --black: #000000;
+  --blue-violet: #6654d7;
+  --chicago: #5e5e5e;
+  --mine-shaft: #333333;
+  --rob-roy: #e9c46a;
+  --robins-egg-blue: #14c8c8;
+  --white: #ffffff;
+ 
+  --font-size-s: 28px;
+  --font-size-xxs: 20px;
+  --font-size-xxxs: 16px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-roboto_slab: "Roboto Slab", Helvetica;
+}
+.inter-normal-chicago-16px {
+  color: var(--chicago);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.inter-bold-mine-shaft-16px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-semi-bold-blue-violet-16px {
+  color: var(--blue-violet);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.robotoslab-medium-blue-violet-28px {
+  color: var(--blue-violet);
+  font-family: var(--font-family-roboto_slab);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-medium-mine-shaft-20px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 500;
+}
