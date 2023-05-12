@@ -1,0 +1,38 @@
+.mainFooter {
+    /* position: absolute;
+    width: 100%;
+    height: 300px;
+    left: -18px; */
+    top: 553px;
+    border: 2px solid red;
+}
+  
+  .mainFooter .footer {
+    position: absolute; /* change position to relative */
+    width: 1393px;
+    height: 455.5px;
+    left: -18px; /* center the div horizontally */
+    bottom: -696px;
+    background: #FFABF4;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+  }
+  
+  .mainFooter .footerblue {
+    position: absolute;
+    width: 1379.5px;
+    height: 83.71px;
+    left: -6px;
+    top: 650.79px; /* adjust the top property to overlap */
+    border: 1px solid #6754D8;
+  }
+  
+  .mainFooter .footercream {
+    position: absolute;
+    width: 1393px;
+    height: 455.5px;
+    left: 1525px;
+    bottom: -696px;
+    background: #E9C46A;
+    mix-blend-mode: hard-light;
+    transform: rotate(180deg);
+  }
