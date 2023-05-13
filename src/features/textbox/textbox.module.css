@@ -1,0 +1,26 @@
+.textbox {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    min-height: 43px;
+    width: 640px;
+  }
+  
+  .firstname {
+    letter-spacing: 0;
+    line-height: 40px;
+    margin-top: -1px;
+    white-space: nowrap;
+  }
+  
+  .rectangle5 {
+    background-color: var(--silver);
+    height: 1px;
+    width: 640px;
+  }
+  input[type="text"] {
+    border: none;
+    outline: none;
+  }
+  

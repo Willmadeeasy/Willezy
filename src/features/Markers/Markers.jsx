@@ -1,9 +1,8 @@
 import React from "react";
-import "./Markers1.css";
+import "./Markers.css";
 
-function Markers1(props) {
+function Markers(props) {
   const { children, className } = props;
-console.log(props);
   return (
     <div className={`markers1 ${className || ""}`}>
       <div className="x01 inter-bold-mine-shaft-16px">
@@ -13,4 +12,4 @@ console.log(props);
   );
 }
 
-export default Markers1;
+export default Markers;

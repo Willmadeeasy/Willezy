@@ -6,6 +6,8 @@
   --rob-roy: #e9c46a;
   --robins-egg-blue: #14c8c8;
   --white: #ffffff;
+  --silver: #bebebe;
+  --mercury: #e5e5e5;
  
   --font-size-s: 28px;
   --font-size-xxs: 20px;
@@ -51,6 +53,45 @@
   color: var(--mine-shaft);
   font-family: var(--font-family-inter);
   font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 500;
+}
+.inter-medium-mine-shaft-20px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.robotoslab-medium-silver-28px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-roboto_slab);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-normal-mine-shaft-16px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-bold-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.robotoslab-medium-blue-violet-28px {
+  color: var(--blue-violet);
+  font-family: var(--font-family-roboto_slab);
+  font-size: var(--font-size-s);
   font-style: normal;
   font-weight: 500;
 }

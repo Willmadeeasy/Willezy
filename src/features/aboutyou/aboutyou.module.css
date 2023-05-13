@@ -1,0 +1,225 @@
+.screen1 {
+    align-items: flex-start;
+    background-color: var(--white);
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    height: 768px;
+    overflow: hidden;
+    width: 1366px;
+  }
+  
+  .pagination {
+    align-items: flex-start;
+    display: flex;
+    gap: 2px;
+    height: 4px;
+    justify-content: center;
+    margin-left: 4px;
+    min-width: 1358px;
+  }
+  
+  .overlapgroup {
+    align-items: flex-start;
+    background-color: var(--silver);
+    display: flex;
+    margin-top: -1px;
+    min-width: 452px;
+  }
+  
+  .rectangle29 {
+    background-color: var(--robins-egg-blue);
+    height: 6px;
+    width: 47px;
+  }
+  
+  .rectangle {
+    background-color: var(--mercury);
+    height: 6px;
+    margin-top: -1px;
+    width: 452px;
+  }
+  
+  .buttons {
+    align-items: flex-start;
+    align-self: flex-end;
+    background-color: var(--white);
+    border-radius: 22px;
+    display: flex;
+    gap: 8px;
+    height: 44px;
+    margin-right: 32px;
+    margin-top: 36px;
+    overflow: hidden;
+    padding: 6px 24px;
+    width: 204px;
+  }
+  
+  .chevron {
+    align-self: center;
+    /* height: 16px;
+    width: 16px; */
+    margin-top: -3px
+  }
+  
+  .next,
+  .ensureyourfullleg,
+  .next1 {
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .flexrow {
+    align-items: flex-start;
+    display: flex;
+    gap: 16px;
+    height: 349px;
+    margin-left: 82px;
+    margin-top: 76px;
+    min-width: 992px;
+  }
+  
+  .flexcol {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+    min-height: 155px;
+    width: 126px;
+  }
+  
+  .markers1 {
+    align-items: flex-start;
+    background-color: var(--mine-shaft);
+    border-radius: 18px;
+    display: flex;
+    height: 36px;
+    overflow: hidden;
+    padding: 7px 8.5px;
+    width: 36px;
+  }
+  
+  .number {
+    letter-spacing: 0;
+    line-height: 20px;
+    min-width: 19px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .dropdown {
+    align-items: flex-start;
+    background-color: var(--white);
+    border-radius: 22px;
+    display: flex;
+    gap: 12px;
+    height: 44px;
+    overflow: hidden;
+    padding: 7px 16px;
+    width: 126px;
+  }
+  
+  .dropdownvalues {
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+    /* width: 66px; */
+    width: 100px;
+    padding: 3px 10px;
+    margin-top: 21px;
+    position: absolute;
+    border: none;
+    outline: none;
+    font-size: 20px;
+  }
+  
+  .frame36 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    min-height: 349px;
+    width: 850px;
+  }
+  
+  .frame26 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-height: 72px;
+    width: 850px;
+  }
+  
+  .hellotherewhatsyourname {
+    letter-spacing: 0;
+    line-height: 40px;
+    margin-top: -1px;
+    white-space: nowrap;
+  }
+  
+  .frame18 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 169px;
+    position: relative;
+    width: 640px;
+  }
+  
+  .buttongrp {
+    align-items: center;
+    display: flex;
+    gap: 16px;
+    min-width: 315px;
+  }
+  
+  .buttons1 {
+    align-items: flex-start;
+    background-color: var(--mercury);
+    border-radius: 22px;
+    display: flex;
+    height: 44px;
+    overflow: hidden;
+    padding: 7px 40px;
+    width: 125px;
+  }
+  
+  .or {
+    letter-spacing: 0;
+    line-height: 28px;
+    margin-bottom: 2.0px;
+    min-width: 16px;
+    white-space: nowrap;
+  }
+  
+  .frame39 {
+    align-items: flex-start;
+    display: flex;
+    gap: 8px;
+    min-width: 142px;
+  }
+  
+  .pressenter {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: -1px;
+    min-width: 110px;
+    white-space: nowrap;
+  }
+  
+  .enter {
+    height: 24px;
+    width: 24px;
+  }
+  
+  .bg {
+    height: 456px;
+    margin-left: -38px;
+    margin-top: 93px;
+    width: 1433px;
+  }
+  
+  
