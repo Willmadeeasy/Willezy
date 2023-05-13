@@ -40,16 +40,12 @@ export const Aboutyou = (props) => {
         const [selectedValue, setSelectedValue] = useState("");
         const [showDefaultOption, setShowDefaultOption] = useState(true);
         useEffect(() => {
-            // setShowDefaultOption(selectedValue === '');
+            setShowDefaultOption(selectedValue === '');
+            console.log(selectedValue)
           }, [selectedValue]);
 
-        const handleSelect = (event) => {
-            // const value = event.target.value;
-            setSelectedValue(event);
-            // setTimeout(() => {
-            //   setSelectedValue(event);
-            // }, 10);
-            console.log(selectedValue)
+          const handleSelect = (event) => {
+            setSelectedValue(prevValue => event);
           };
         
           
